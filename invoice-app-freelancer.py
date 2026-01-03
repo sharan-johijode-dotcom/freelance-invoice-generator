@@ -118,7 +118,7 @@ class InvoiceGenerator(tk.Tk):
 
         self.notes_text = tk.Text(notes_frame, height=5)
         self.notes_text.pack(fill='both', expand=True)
-        self.notes_text.insert('1.0', "Thanks for your business!")
+        self.notes_text.insert('1.0', "We value your trust and confidence in us")
 
         # Add first item AFTER tax_var and totals are defined
         self.add_item()
